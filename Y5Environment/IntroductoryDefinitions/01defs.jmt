@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hotpot-jmatch-file>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:creator>Kerry Seaman</dc:creator>
+    <dc:title>Environment Vocabulary&amp;#x003C;br&amp;#x003E;&amp;#x003C;img src=&quot;rainforest.jpg&quot; alt=&quot;rainforest.jpg&quot; title=&quot;rainforest&quot; width=&quot;259&quot; height=&quot;194&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</dc:title>
+  </rdf:Description>
+</rdf:RDF><version>6</version>
+
+<data>
+<title>Environment Vocabulary&amp;#x003C;br&amp;#x003E;&amp;#x003C;img src=&quot;rainforest.jpg&quot; alt=&quot;rainforest.jpg&quot; title=&quot;rainforest&quot; width=&quot;259&quot; height=&quot;194&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</title>
+
+<timer><seconds>60</seconds><include-timer>0</include-timer></timer>
+
+<reading>
+<include-reading>0</include-reading>
+<reading-title></reading-title>
+<reading-text></reading-text>
+
+</reading>
+
+<matching-exercise>
+<default-right-item>Choose a defintion</default-right-item>
+
+<pair>
+<left-item><text>Habitat</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>The environment in which a plant or animal lives</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Invertebrate</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>An animal with no backbone</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Amazon </text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>The river in South America where rainforests occur</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Insect</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>Animal with 6 legs</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Life-Cycle</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>The series of changes in the life of a plant or animal</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Hibernate</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>When an animal sleeps during winter</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Oxygen</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>A colourless gas which is necessary for life</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Atmosphere</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>The layer of gases surrounding the Earth</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Seed</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>What plants produce which then grow into new plants</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>Deforestation</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>The cutting down and clearing away of trees</text>
+<fixed>0</fixed>
+</right-item></pair>
+</matching-exercise>
+</data>
+
+<hotpot-config-file>
+<jmatch>
+<exercise-subtitle>Useful definitions for the environment</exercise-subtitle>
+<instructions>Match the correct definition to the word on the left</instructions>
+<next-ex-url>01defs.htm</next-ex-url>
+<send-email>0</send-email>
+<show-limited-questions>0</show-limited-questions>
+<questions-to-show>1</questions-to-show>
+<shuffle-questions>1</shuffle-questions>
+<separate-javascript-file>0</separate-javascript-file>
+<next-caption>Next</next-caption>
+<delete-caption>Delete</delete-caption>
+<guess-correct>Correct! Well done.</guess-correct>
+<guess-incorrect>Sorry! Try again. </guess-incorrect>
+</jmatch>
+
+<global>
+<your-score-is>Your score is </your-score-is>
+<correct-indicator>&amp;#x003C;img src=&quot;smileylemur.jpg&quot; width=&quot;40&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</correct-indicator>
+<incorrect-indicator>X</incorrect-indicator>
+<process-for-rtl>0</process-for-rtl>
+<include-scorm-12>0</include-scorm-12>
+<times-up>Your time is over!</times-up>
+<check-caption>Check my answers</check-caption>
+<ok-caption>OK</ok-caption>
+<next-ex-caption>I want to try again</next-ex-caption>
+<back-caption>&amp;#x003C;=</back-caption>
+<contents-caption>Index</contents-caption>
+<include-next-ex>1</include-next-ex>
+<include-contents>0</include-contents>
+<include-back>0</include-back>
+<contents-url>contents.htm</contents-url>
+<graphic-url></graphic-url>
+<font-face>Geneva,Arial,sans-serif</font-face>
+<font-size>small</font-size>
+<page-bg-color>#006600</page-bg-color>
+<title-color>#000000</title-color>
+<ex-bg-color>#004600</ex-bg-color>
+<text-color>#ffffff</text-color>
+<link-color>#0000FF</link-color>
+<vlink-color>#0000CC</vlink-color>
+<nav-bar-color>#008a00</nav-bar-color>
+<formmail-url>http://yourserver.com/cgi-bin/FormMail.pl</formmail-url>
+<email>you@yourserver.com</email>
+<name-please>Please enter your name:</name-please>
+<user-string-1>one</user-string-1>
+<user-string-2>two</user-string-2>
+<user-string-3>three</user-string-3>
+<header-code></header-code>
+</global>
+</hotpot-config-file>
+</hotpot-jmatch-file>
