@@ -38,7 +38,7 @@
 <show-answer-caption>Show answer</show-answer-caption>
 <include-hint>0</include-hint>
 <include-show-answer>0</include-show-answer>
-<next-ex-url>nextpage.htm</next-ex-url>
+<next-ex-url>wastequiz.htm</next-ex-url>
 <send-email>0</send-email>
 <continuous-scoring>1</continuous-scoring>
 <show-correct-first-time>1</show-correct-first-time>
