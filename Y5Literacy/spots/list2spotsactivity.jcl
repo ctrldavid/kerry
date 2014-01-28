@@ -29,7 +29,7 @@
 6.  Changes in technology happen so [r] <question-record><question></question><answer><text>rapidly</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> that it is difficult to keep up with new ideas.
 7.  If you are good at something, like baking biscuits, you could [t] <question-record><question></question><answer><text>teach</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> someone else to do it.
 8.  It is a good idea to have the TV volume on [n] <question-record><question></question><answer><text>normal</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> so it is not so loud that it disturbs the neighbours.
-9.  Great words to use at home are &quot;Please&quot;  and [T] &quot;<question-record><question></question><answer><text>Thankyou</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record>&quot; with a big smile.
+9.  Great words to use at home are &quot;Please&quot;  and [T] &quot;<question-record><question></question><answer><text>Thank you</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record>&quot; with a big smile.
 10.  Being tired in the morning is a good [r] <question-record><question></question><answer><text>reason</text><feedback></feedback><correct>1</correct></answer><clue></clue></question-record> to go to bed earlier at night.</gap-fill>
 </data>
 
