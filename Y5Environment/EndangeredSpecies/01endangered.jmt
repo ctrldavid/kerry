@@ -25,7 +25,7 @@
 <default-right-item>Choose a reason</default-right-item>
 
 <pair>
-<left-item><text>&amp;#x003C;img src=&quot;kiwi.jpg&quot; width=&quot;60&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<left-item><text>&amp;#x003C;img src=&quot;kiwi.jpg&quot; width=&quot;120&quot; height=&quot;80&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
 <fixed>1</fixed>
 </left-item>
 <right-item><text>Pests have been introduced to my country which kill and eat me</text>
@@ -33,7 +33,7 @@
 </right-item></pair>
 
 <pair>
-<left-item><text>&amp;#x003C;img src=&quot;bee.jpg&quot; width=&quot;49&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<left-item><text>&amp;#x003C;img src=&quot;bee.jpg&quot; width=&quot;98&quot; height=&quot;80&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
 <fixed>1</fixed>
 </left-item>
 <right-item><text>People spray insecticides which kill me</text>
@@ -41,7 +41,7 @@
 </right-item></pair>
 
 <pair>
-<left-item><text>&amp;#x003C;img src=&quot;polarbear.jpg&quot; width=&quot;60&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<left-item><text>&amp;#x003C;img src=&quot;polarbear.jpg&quot; width=&quot;120&quot; height=&quot;80&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
 <fixed>1</fixed>
 </left-item>
 <right-item><text>The ice where I live is melting</text>
@@ -49,7 +49,7 @@
 </right-item></pair>
 
 <pair>
-<left-item><text>&amp;#x003C;img src=&quot;orangutan.jpg&quot; width=&quot;53&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<left-item><text>&amp;#x003C;img src=&quot;orangutan.jpg&quot; width=&quot;107&quot; height=&quot;80&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
 <fixed>1</fixed>
 </left-item>
 <right-item><text>My home is being destroyed to harvest palm oil for food</text>
@@ -57,7 +57,7 @@
 </right-item></pair>
 
 <pair>
-<left-item><text>&amp;#x003C;img src=&quot;coralreef.jpg&quot; width=&quot;64&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<left-item><text>&amp;#x003C;img src=&quot;coralreef.jpg&quot; width=&quot;127&quot; height=&quot;80&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
 <fixed>1</fixed>
 </left-item>
 <right-item><text>Pollution from humans is destroying me</text>
@@ -93,11 +93,11 @@
 <ok-caption>OK</ok-caption>
 <next-ex-caption>I want to try again</next-ex-caption>
 <back-caption>&amp;#x003C;=</back-caption>
-<contents-caption>Index</contents-caption>
+<contents-caption>I want to do the next exercise</contents-caption>
 <include-next-ex>1</include-next-ex>
-<include-contents>0</include-contents>
+<include-contents>1</include-contents>
 <include-back>0</include-back>
-<contents-url>contents.htm</contents-url>
+<contents-url>01endangeredpart2.htm</contents-url>
 <graphic-url></graphic-url>
 <font-face>Geneva,Arial,sans-serif</font-face>
 <font-size>small</font-size>

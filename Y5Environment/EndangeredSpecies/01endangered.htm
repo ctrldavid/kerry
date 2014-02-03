@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
        <html xmlns="http://www.w3.org/1999/xhtml"
-             xml:lang="en"><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to Kerry Seaman."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
+             xml:lang="en"><head><meta name="author" content="Created with Hot Potatoes by Half-Baked Software, registered to Estelle Seaman."></meta><meta name="keywords" content="Hot Potatoes, Hot Potatoes, Half-Baked Software, Windows, University of Victoria"></meta>
 
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC:Creator" content="Estelle Seaman" />
 <meta name="DC:Creator" content="Kerry Seaman" />
 <meta name="DC:Title" content="Why am I endangered?&#x003C;br&#x003E;&#x003C;img src=&quot;panda.jpg&quot; width=&quot;182&quot; height=&quot;120&quot;&#x003E;&#x003C;/img&#x003E;" />
 
@@ -1091,7 +1092,7 @@ var TimeOver = false;
 var Score = 0;
 var Locked = false;
 var ShuffleQs = true;
-var QsToShow = 10;
+var QsToShow = 5;
 
 
 function StartUp(){
@@ -1102,7 +1103,7 @@ function StartUp(){
 
 
 
-	PreloadImages('smileylemur.jpg','panda.jpg','elephant.jpg','rhino.jpg','whale.jpg','snowleopard.jpg','kiwi.jpg','bee.jpg','polarbear.jpg','orangutan.jpg','coralreef.jpg');
+	PreloadImages('smileylemur.jpg','panda.jpg','kiwi.jpg','bee.jpg','polarbear.jpg','orangutan.jpg','coralreef.jpg');
 
 
 	SetUpItems(ShuffleQs,QsToShow);
@@ -1345,6 +1346,8 @@ function CheckAnswers(){
 
 
 
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='01endangeredpart2.htm'; return false;"> I want to do the next exercise </button>
+
 
 
 <button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)" onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='01endangered.htm'; return false;">I want to try again</button>
@@ -1380,116 +1383,36 @@ function CheckAnswers(){
 <form id="QForm" method="post" action="" onsubmit="return false;">
 <table border="0" style="margin: 2em auto 2em auto;"><tbody id="Questions">
 
-<tr><td class="LeftItem"><img src="elephant.jpg" width="55" height="40"></img></td><td class="RightItem"><select id="s0_0"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="rhino.jpg" width="53" height="40"></img></td><td class="RightItem"><select id="s1_1"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="whale.jpg" width="82" height="40"></img></td><td class="RightItem"><select id="s2_2"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="panda.jpg" width="61" height="40"></img></td><td class="RightItem"><select id="s3_3"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="snowleopard.jpg" width="59" height="40"></img></td><td class="RightItem"><select id="s4_4"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="kiwi.jpg" width="60" height="40"></img></td><td class="RightItem"><select id="s5_5"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="bee.jpg" width="49" height="40"></img></td><td class="RightItem"><select id="s6_6"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="polarbear.jpg" width="60" height="40"></img></td><td class="RightItem"><select id="s7_7"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="orangutan.jpg" width="53" height="40"></img></td><td class="RightItem"><select id="s8_8"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
-</select></td><td></td></tr><tr><td class="LeftItem"><img src="coralreef.jpg" width="64" height="40"></img></td><td class="RightItem"><select id="s9_9"><option value="x">Choose a reason</option>
-<option value="2">I am harpooned for my meat and scientific research</option>
-<option value="7">The ice where I live is melting</option>
-<option value="4">I am hunted for my fur to make clothing</option>
-<option value="3">My environment and food source is being destroyed</option>
-<option value="0">I am poached for ivory to make things like jewelery</option>
-<option value="8">My home is being destroyed to harvest palm oil for food</option>
-<option value="1">I am poached for my horn to use in traditional medicine</option>
-<option value="6">People spray insecticides which kill me</option>
-<option value="9">Pollution from humans is destroying me</option>
-<option value="5">Pests have been introduced to my country which kill and eat me</option>
+<tr><td class="LeftItem"><img src="kiwi.jpg" width="120" height="80"></img></td><td class="RightItem"><select id="s0_0"><option value="x">Choose a reason</option>
+<option value="1">People spray insecticides which kill me</option>
+<option value="2">The ice where I live is melting</option>
+<option value="4">Pollution from humans is destroying me</option>
+<option value="0">Pests have been introduced to my country which kill and eat me</option>
+<option value="3">My home is being destroyed to harvest palm oil for food</option>
+</select></td><td></td></tr><tr><td class="LeftItem"><img src="bee.jpg" width="98" height="80"></img></td><td class="RightItem"><select id="s1_1"><option value="x">Choose a reason</option>
+<option value="1">People spray insecticides which kill me</option>
+<option value="2">The ice where I live is melting</option>
+<option value="4">Pollution from humans is destroying me</option>
+<option value="0">Pests have been introduced to my country which kill and eat me</option>
+<option value="3">My home is being destroyed to harvest palm oil for food</option>
+</select></td><td></td></tr><tr><td class="LeftItem"><img src="polarbear.jpg" width="120" height="80"></img></td><td class="RightItem"><select id="s2_2"><option value="x">Choose a reason</option>
+<option value="1">People spray insecticides which kill me</option>
+<option value="2">The ice where I live is melting</option>
+<option value="4">Pollution from humans is destroying me</option>
+<option value="0">Pests have been introduced to my country which kill and eat me</option>
+<option value="3">My home is being destroyed to harvest palm oil for food</option>
+</select></td><td></td></tr><tr><td class="LeftItem"><img src="orangutan.jpg" width="107" height="80"></img></td><td class="RightItem"><select id="s3_3"><option value="x">Choose a reason</option>
+<option value="1">People spray insecticides which kill me</option>
+<option value="2">The ice where I live is melting</option>
+<option value="4">Pollution from humans is destroying me</option>
+<option value="0">Pests have been introduced to my country which kill and eat me</option>
+<option value="3">My home is being destroyed to harvest palm oil for food</option>
+</select></td><td></td></tr><tr><td class="LeftItem"><img src="coralreef.jpg" width="127" height="80"></img></td><td class="RightItem"><select id="s4_4"><option value="x">Choose a reason</option>
+<option value="1">People spray insecticides which kill me</option>
+<option value="2">The ice where I live is melting</option>
+<option value="4">Pollution from humans is destroying me</option>
+<option value="0">Pests have been introduced to my country which kill and eat me</option>
+<option value="3">My home is being destroyed to harvest palm oil for food</option>
 </select></td><td></td></tr>
 
 </tbody></table>
@@ -1514,6 +1437,8 @@ function CheckAnswers(){
 
 
 
+
+<button class="NavButton" onfocus="NavBtnOver(this)" onblur="NavBtnOut(this)"  onmouseover="NavBtnOver(this)" onmouseout="NavBtnOut(this)" onmousedown="NavBtnDown(this)" onmouseup="NavBtnOut(this)" onclick="location='01endangeredpart2.htm'; return false;"> I want to do the next exercise </button>
 
 
 
