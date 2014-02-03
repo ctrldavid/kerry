@@ -3,7 +3,6 @@
 <hotpot-jmatch-file>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:Description rdf:about="">
-    <dc:creator>Estelle Seaman</dc:creator>
     <dc:creator>Kerry Seaman</dc:creator>
     <dc:title>Why am I endangered?&amp;#x003C;br&amp;#x003E;&amp;#x003C;img src=&quot;panda.jpg&quot; width=&quot;182&quot; height=&quot;120&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</dc:title>
   </rdf:Description>
@@ -23,6 +22,46 @@
 
 <matching-exercise>
 <default-right-item>Choose a reason</default-right-item>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;elephant.jpg&quot; width=&quot;55&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>I am poached for ivory to make things like jewelery</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;rhino.jpg&quot; width=&quot;53&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>I am poached for my horn to use in traditional medicine</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;whale.jpg&quot; width=&quot;82&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>I am harpooned for my meat and scientific research</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;panda.jpg&quot; width=&quot;61&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>My environment and food source is being destroyed</text>
+<fixed>0</fixed>
+</right-item></pair>
+
+<pair>
+<left-item><text>&amp;#x003C;img src=&quot;snowleopard.jpg&quot; width=&quot;59&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
+<fixed>1</fixed>
+</left-item>
+<right-item><text>I am hunted for my fur to make clothing</text>
+<fixed>0</fixed>
+</right-item></pair>
 
 <pair>
 <left-item><text>&amp;#x003C;img src=&quot;kiwi.jpg&quot; width=&quot;60&quot; height=&quot;40&quot;&amp;#x003E;&amp;#x003C;/img&amp;#x003E;</text>
